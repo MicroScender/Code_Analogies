@@ -1,0 +1,38 @@
+/* style.css to comment, ctrl /  */
+
+body{margin:0px;
+    padding:0px;
+}
+
+header{
+    background-color: #030001;
+    height: 100px;
+    width: 100vw;
+    
+}
+
+h1 { 
+    margin: 0px;
+    color: #B10714;
+    text-align: center
+    
+    ;  
+}
+
+nav li  {
+    display:inline-block;
+    
+    margin-left: 100px;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration-color: #426499;
+   }
+
+a:link  {
+    color:#426499;
+   text-decoration: none;
+}
+a:visited { 
+    color: #26DEFF;
+}
+   /* sweet doodies */
