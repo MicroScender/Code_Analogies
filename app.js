@@ -1,5 +1,9 @@
 'use strict'; 
 
+
+
+
+
 // declare a variable, assign it the value of the user's input
 let surprise= prompt("WOH!! What are you doing here?");
 
@@ -12,7 +16,28 @@ if (confirm("Do you really wanna look at this content?") == true) {
   text = "You pressed get me outta here!";
 }
 
+function wassup() {
 let username= prompt("Mhhmm...Besides the point. What do I call you?");
+console.log(' Well hello there, ' + username);
+
+let aimless = prompt ("Are you lost?");
+let message;
+if (aimless == 'yes'){
+    message = 'The Struggler';
+} else if (aimless == 'no'){
+    message = 'You have arrived';
+} else {
+    message = 'Just a transient';
+}
+return username;
+}
+
+// call the function with its own name
+
+wassup ()
+console.log(wassup())
+
+
 
 // let text;
 // if (confirm("Press a button!") == true) {
@@ -23,7 +48,8 @@ let username= prompt("Mhhmm...Besides the point. What do I call you?");
 
 
 // print the user's input to the console
-console.log(username);
+
+
 
 // let confused =prompt( username + " ,huh? Well, can't say that " + username + " is the most exotic name.");
 
@@ -40,7 +66,7 @@ console.log(username);
 //     console.log("well thats too bad");
 // }
 // How to put data on the page
- document.write("<p id='username'>" + username + "</p>");
+ document.write("<p id='username'>" + username + message + "</p>");
 
 // username.tooLowerCase() OR username.toUpperCase() to make sure that the username is accepted even if the user types a uppercase for the first letter
 
