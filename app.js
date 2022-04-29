@@ -21,7 +21,7 @@ let username= prompt("Mhhmm...Besides the point. What do I call you?");
 console.log(' Well hello there, ' + username);
 
 let aimless = prompt ("Are you lost?");
-let message,;
+let message;
 if (aimless == 'yes'){
     message = 'The Struggler';
 } else if (aimless == 'no'){
@@ -29,8 +29,10 @@ if (aimless == 'yes'){
 } else {
     message = 'Just a transient';
 }
+
 return username;
 }
+
 
 // call the function with its own name
 
@@ -82,7 +84,7 @@ document.write("<p id='username'>" + username + message + "</p>");
 //     console.log("Aww, kitty!");
 // }  
 
-function numberpick ()
-{
-    for (let i=0)
-}
+// function numberpick ()
+// {
+//     for (let i=0)
+// }
