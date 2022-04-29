@@ -21,7 +21,7 @@ let username= prompt("Mhhmm...Besides the point. What do I call you?");
 console.log(' Well hello there, ' + username);
 
 let aimless = prompt ("Are you lost?");
-let message;
+let message,;
 if (aimless == 'yes'){
     message = 'The Struggler';
 } else if (aimless == 'no'){
@@ -37,6 +37,7 @@ return username;
 wassup ()
 console.log(wassup())
 
+document.write("<p id='username'>" + username + message + "</p>");
 
 
 // let text;
@@ -66,7 +67,7 @@ console.log(wassup())
 //     console.log("well thats too bad");
 // }
 // How to put data on the page
- document.write("<p id='username'>" + username + message + "</p>");
+ 
 
 // username.tooLowerCase() OR username.toUpperCase() to make sure that the username is accepted even if the user types a uppercase for the first letter
 
@@ -81,3 +82,7 @@ console.log(wassup())
 //     console.log("Aww, kitty!");
 // }  
 
+function numberpick ()
+{
+    for (let i=0)
+}
