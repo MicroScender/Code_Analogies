@@ -1,10 +1,32 @@
 'use strict'; 
 
 // declare a variable, assign it the value of the user's input
-// let username= prompt("what is your name?")
+let surprise= prompt("WOH!! What are you doing here?");
+
+console.log(surprise);
+
+let text;
+if (confirm("Do you really wanna look at this content?") == true) {
+  text = "You pressed yes!";
+} else {
+  text = "You pressed get me outta here!";
+}
+
+let username= prompt("Mhhmm...Besides the point. What do I call you?");
+
+// let text;
+// if (confirm("Press a button!") == true) {
+//   text = "You pressed OK!";
+// } else {
+//   text = "You canceled!";
+// }
+
 
 // print the user's input to the console
-// console.log(username);
+console.log(username);
+
+// let confused =prompt( username + " ,huh? Well, can't say that " + username + " is the most exotic name.");
+
 
 // Checking for Joseph
 
@@ -18,7 +40,7 @@
 //     console.log("well thats too bad");
 // }
 // How to put data on the page
-// document.write(username);
+ document.write("<p id='username'>" + username + "</p>");
 
 // username.tooLowerCase() OR username.toUpperCase() to make sure that the username is accepted even if the user types a uppercase for the first letter
 

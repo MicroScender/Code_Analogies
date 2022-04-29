@@ -1,38 +1,75 @@
 /* style.css to comment, ctrl /  */
 
-body{margin:0px;
+body {margin:0px;
     padding:0px;
+    background-color: slategrey;
 }
 
 header{
+    margin: 0px;
     background-color: #030001;
-    height: 100px;
+    height: 125px;
     width: 100vw;
     
 }
 
 h1 { 
-    margin: 0px;
+    margin: 0px;   
     color: #B10714;
-    text-align: center
-    
-    ;  
+    text-align: center;
+}
+
+h1 #text {
+    margin-top: 100px;
+}
+
+
+
+script {
+    forced-color-adjust:aliceblue;
 }
 
 nav li  {
     display:inline-block;
-    
     margin-left: 100px;
-    padding-top: 30px;
-    text-align: center;
-    text-decoration-color: #426499;
-   }
+    padding-left: 60px;
+    
+    
+ 
+}
 
 a:link  {
     color:#426499;
    text-decoration: none;
+   
 }
+
 a:visited { 
     color: #26DEFF;
 }
    /* sweet doodies */
+
+#username {
+    padding-left:90%;
+    color:aqua;
+    font-family: cursive; 
+    font-size: medium
+    
+}
+
+section.normal-section {
+    margin-top: 15px;
+}
+
+section.normal-section p {
+    margin-top: -100px;
+   padding-right: 10%;
+   text-align:right;
+}
+
+section.normal-section1 {
+    padding-top: 100px;
+}
+footer {
+    background-color:seagreen;
+}
