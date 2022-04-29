@@ -31,8 +31,8 @@ script {
 
 nav li  {
     display:inline-block;
-    margin-left: 100px;
-    padding-left: 60px;
+    margin-left: 150px;
+    padding-left: 90px;
     
     
  
@@ -59,11 +59,12 @@ a:visited {
 
 section.normal-section {
     margin-top: 15px;
+
 }
 
 section.normal-section p {
     margin-top: -100px;
-   padding-right: 10%;
+   padding-right: 12%;
    text-align:right;
 }
 
