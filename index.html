@@ -17,6 +17,35 @@
             </nav>
         </header>
         <main>
+            <p>So……?</p>
+            Lost: <input id="lost">;
+            Destination: <input id= "destination">;
+            <button id="read">Decide!</button>;
+            <hr>
+            <div id="result"></div>
+        
+       
+       
+       <script>
+            function tell_me() {
+                let losts = document.getElementById('lost').value;
+                let destinations = documentgetElementById('destination').value;
+                
+                // let html = 'oh sweet!' + vgame + ' on ' + gconsole + ' is a great game! ';
+                let html = ''
+                if (losts != "no"){
+                    // let html = 'Wrong!' + vgame + ' on ' + gconsole + ' is a great game!;
+                 html = 'sweet doodies!' + destinations + ' on ' + losts + 'is a good place to be!';
+                    // console.log(html)
+                } else {
+                    html = 'whoopths!' + vgame + ' on ' + gconsole + ' slow upward climb! ';
+                }
+                document.getElementById('result').innerHTML = html;
+            }
+            document.getElementById('read').addEventListener('click, tell_me');
+        </script>
+        
+            
             <section class="normal-section">
                  <img src="https://via.placeholder.com/150" />
                  <p>some words here, but aligned with the image 
