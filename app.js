@@ -5,7 +5,7 @@
 
 
 // declare a variable, assign it the value of the user's input
-// let surprise= prompt("WOH!! What are you doing here?");
+let surprise= prompt("WOH!! What are you doing here?");
 
 // console.log(surprise);
 
